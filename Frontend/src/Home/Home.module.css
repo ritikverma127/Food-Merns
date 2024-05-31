@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    margin-top: 0px;
+    margin-left: 381px;
+}
+
+.slider {
+	overflow: hidden;
+    /* margin-left: 383px; */
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+.slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+
+.slider figure img {
+	width: 33.333333333%;
+	height : 644px;
+	float: left;
+}
+/* ************************************ */

@@ -1,0 +1,33 @@
+
+.main{
+    margin-top: 0px;
+    margin-left: 381px;
+}
+.h4{
+font-size: 20px;
+margin-top: 106px;
+    letter-spacing: .05em;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-left: 44px;
+
+}
+.h1{
+    margin-left: 44px;
+    font-size: 67px;
+    margin-top: 31px;
+
+}
+.p{
+    font-size: 21px;
+    letter-spacing: .05em;
+    line-height: 31px;
+    color: grey;
+    margin-top: 24px;
+    margin-left: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img{
+margin-left: 615px;
+margin-top: -542px;
+}

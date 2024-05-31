@@ -1,0 +1,50 @@
+.theme {
+    border-radius: 100%;
+    left: 25px;
+    padding: 4px;
+    position: absolute;
+    top: 90px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-left: 985px;
+    margin-top: 680px;
+  }
+  .round {
+    position: relative;
+  }
+  
+  .round > img {
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .foholic_letter {
+    display: inline-block;
+    height: 130px;
+    left: 0;
+    line-height: 128px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 128px;
+    z-index: 0;
+    color: #000;
+    font-size: 137px;
+    font-style: normal;
+    font-weight: 800;
+    align-items: center;
+  }
+  

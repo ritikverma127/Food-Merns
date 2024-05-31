@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 35px;
+    z-index: 1000; /* Ensure it is above other content */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    margin: -12px 4px;
+  }
+  

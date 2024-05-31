@@ -1,0 +1,59 @@
+/* Signup.module.css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  margin-top: 30px;
+    margin-top: 53px;
+    margin-left: 365px;
+}
+.h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 482px;
+}
+.container {
+  margin-top: 86px;
+  margin-left: 426px;
+  width: 359px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h44 {
+  margin-left: 0px;
+}
+input[type="text"] {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 15px;
+  margin: 3px;
+  width: auto;
+  line-height: inherit;
+  border-bottom: 1px solid black;
+  margin-left: -8px;
+}
+.buttons {
+  background-color: black;
+  color: white;
+  margin: 31px 89px;
+  padding: 18px 105px;
+}
+.buttons:hover {
+  background-color: white;
+  color: black;
+}
+.buttonss {
+  background-color: white;
+  color: blue;
+  border: none;
+  cursor: pointer;
+}
