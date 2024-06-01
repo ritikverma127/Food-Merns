@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prestart": "chmod +x node_modules/.bin/nodemon",
     "dev": "node Index.js",
-    "start": "nodemon Index.js",
+    "start": "node Index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
