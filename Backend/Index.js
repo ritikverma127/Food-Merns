@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose'); 
-
+const Port=process.env.Ports
 const server = express();
 server.use(express.json());
 server.use(cors());
@@ -32,7 +32,7 @@ mongoose.connect(mongodb)
   .then(() => console.log('Database Connected'))
   .catch(err => console.log(err));
 
-server.listen(8000, () => {
+server.listen(Port, () => {
   console.log("Server Started");
 });
 
